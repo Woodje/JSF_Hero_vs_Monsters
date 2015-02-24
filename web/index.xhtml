@@ -15,7 +15,7 @@
 
            <pre><h:outputText id="output" value="#{ GameEngine.outputString }" /></pre>
 
-           <h:inputText style="margin-left: 15px" id="name" value="#{ GameEngine.userInput }">
+           <h:inputText style="margin-left: 15px; width: 5px" id="name" value="#{ GameEngine.userInput }">
 
                <f:ajax event="keyup" render="output" listener="#{ GameEngine.updateUserInput() }"/>
                </h:inputText>
