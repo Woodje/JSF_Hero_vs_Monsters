@@ -52,7 +52,7 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="136" max-vertical-offset="1003">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
               <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
@@ -62,8 +62,8 @@
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06854839" vertical-offset="0" max-vertical-offset="744">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.114247315" vertical-offset="0" max-vertical-offset="744">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -136,7 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,6 +233,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -601,12 +601,13 @@
       <workItem from="1424695039764" duration="36906000" />
       <workItem from="1424784402241" duration="41000" />
       <workItem from="1424784633621" duration="1086000" />
-      <workItem from="1424801758487" duration="24557000" />
+      <workItem from="1424801758487" duration="24890000" />
+      <workItem from="1424881756198" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62590000" />
+    <option name="totallyTimeSpent" value="63193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
@@ -671,6 +672,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="6919">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#exitGame#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6268" max-vertical-offset="7038">
           <caret line="757" column="27" selection-start-line="757" selection-start-column="27" selection-end-line="757" selection-end-column="27" />
           <folding>
@@ -694,21 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="6188">
           <caret line="37" column="129" selection-start-line="37" selection-start-column="129" selection-end-line="37" selection-end-column="129" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE mappa..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3956" max-vertical-offset="5406">
           <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="5083">
           <caret line="47" column="67" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="969">
           <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,21 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="6188">
           <caret line="37" column="129" selection-start-line="37" selection-start-column="129" selection-end-line="37" selection-end-column="129" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE mappa..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3956" max-vertical-offset="5406">
           <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="5032">
           <caret line="47" column="67" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,9 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1445">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,21 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="6188">
           <caret line="37" column="129" selection-start-line="37" selection-start-column="129" selection-end-line="37" selection-end-column="129" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE mappa..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3956" max-vertical-offset="5406">
           <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="5032">
           <caret line="47" column="67" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,9 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1445">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,23 +914,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.123188406" vertical-offset="0" max-vertical-offset="552">
           <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3655914" vertical-offset="0" max-vertical-offset="969">
           <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="5032">
           <caret line="47" column="67" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.5430107" vertical-offset="1559" max-vertical-offset="5406">
           <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,21 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24059139" vertical-offset="2524" max-vertical-offset="6188">
           <caret line="159" column="43" selection-start-line="159" selection-start-column="43" selection-end-line="159" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE mappa..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="UPDATE heros..." />
-            <marker date="1424866631536" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="136" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
@@ -1025,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06854839" vertical-offset="0" max-vertical-offset="744">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.114247315" vertical-offset="0" max-vertical-offset="744">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
