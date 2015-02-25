@@ -36,7 +36,7 @@ public class UserInterface {
             case SELECTMAP: menuString = additionalString;
                 break;
 
-            case MOVEMENT:  menuString = additionalString + "[w]UP [s]DOWN [a]LEFT [d]RIGHT\n  ";
+            case MOVEMENT:  menuString = additionalString + "[W]UP [S]DOWN [A]LEFT [D]RIGHT\n  ";
                 break;
 
             case COMBAT:  menuString = "  What skill to use? " + additionalString;

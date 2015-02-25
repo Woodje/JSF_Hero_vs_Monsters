@@ -9,26 +9,46 @@
     <h:head>
         <title>JSF_Hero_vs_Monsters</title>
     </h:head>
-   <f:view>
+    <h:outputStylesheet library="css" name="layout.css" />
+    <h:body>
+       <f:view>
 
-       <h:form>
+           <h:form id="GameForm">
 
-           <pre><h:outputText id="output" value="#{ GameEngine.outputString }" /></pre>
+               <pre><h:outputText id="output" value="#{ GameEngine.outputString }" /></pre>
 
-           <h:inputText style="margin-left: 15px; width: 5px" id="name" value="#{ GameEngine.userInput }">
+               <h:inputHidden id="keyCode" binding="#{keyCode}" value="#{ GameEngine.keyCode }" />
 
-               <f:ajax event="keyup" render="output" listener="#{ GameEngine.updateUserInput() }"/>
-               </h:inputText>
+               <h:commandLink id="runKeyCode" action="#{ GameEngine.updateUserInput() }">
+                   <f:ajax execute="keyCode" render="output outputter" />
+               </h:commandLink>
+               
+               <h:commandButton id="MainMenuButton" value="MAIN MENU" action="#{ GameEngine.showMainMenu() }">
+                   <f:ajax render="output" />
+               </h:commandButton>
 
-           <h:commandButton value="RESTART GAME" action="#{ GameEngine.setRestartGame() }">
-               <f:ajax execute="name" render="output" />
-           </h:commandButton>
+               <h:commandButton value="RESET HERO STATS" action="#{ GameEngine.resetHero() }">
+                   <f:ajax render="output" />
+               </h:commandButton>
 
-           <h:commandButton value="RESET HERO STATS" action="#{ GameEngine.setResetHero() }">
-               <f:ajax execute="name" render="output" />
-           </h:commandButton>
+           </h:form>
 
-       </h:form>
+           <script type="text/javascript">
 
-   </f:view>
+                   document.getElementById('GameForm:MainMenuButton').focus();
+
+                   document.onkeyup = function(evt) {
+
+                       evt = evt || window.event;
+
+                       document.getElementById('#{keyCode.clientId}').value=evt.keyCode;
+
+                       document.getElementById('GameForm:runKeyCode').click();
+
+                    };
+
+           </script>
+
+       </f:view>
+   </h:body>
 </html>

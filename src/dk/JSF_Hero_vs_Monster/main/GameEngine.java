@@ -35,6 +35,8 @@ public class GameEngine {
 
     private String userInput;
 
+    private int keyCode;
+
     private String outputString = "  Welcome\n  --------------\n" + userInterface.loadMenu(UserInterface.menu.FIRST, "");
 
     /**
@@ -50,6 +52,11 @@ public class GameEngine {
     }
 
     public void updateUserInput() {
+
+        if (keyCode >= 96 && keyCode <= 105 )
+            keyCode -= 48;
+
+        userInput = String.valueOf((char) keyCode);
 
         switch (gameState) {
 
@@ -115,7 +122,7 @@ public class GameEngine {
      */
     private void startGame() {
 
-        if (gameState == state.INITIALIZE)
+        if (gameState == state.INITIALIZE && gameDatabase.getHero("HERO") == null || gameState == state.INITIALIZE && resetHero)
             listMaps(false);
 
         if (gameState != state.LISTMAP && gameState != state.ERROR) {
@@ -137,6 +144,8 @@ public class GameEngine {
             outputString += "\n\n  Press any key to continue...";
 
             gameState = state.GAMELOOP;
+
+            resetHero = false;
 
         }
 
@@ -213,7 +222,7 @@ public class GameEngine {
 
                     }
 
-                    outputString += result + "\n  Press any key to continue to continue...";
+                    outputString += result + "\n  Press any key to continue...";
 
                 }
 
@@ -351,25 +360,25 @@ public class GameEngine {
 
             switch (input.toCharArray()[0]) {
 
-                case 'w':   for (Character hero : characters)
+                case 'W':   for (Character hero : characters)
                                 if (hero instanceof Hero)
                                     moveCharacter(hero, new Point(0, -1));
 
                             break;
 
-                case 's':   for (Character hero : characters)
+                case 'S':   for (Character hero : characters)
                                 if (hero instanceof Hero)
                                     moveCharacter(hero, new Point(0, 1));
 
                             break;
 
-                case 'a':   for (Character hero : characters)
+                case 'A':   for (Character hero : characters)
                                 if (hero instanceof Hero)
                                     moveCharacter(hero, new Point(-1, 0));
 
                             break;
 
-                case 'd':   for (Character hero : characters)
+                case 'D':   for (Character hero : characters)
                                 if (hero instanceof Hero)
                                     moveCharacter(hero, new Point(1, 0));
 
@@ -447,9 +456,9 @@ public class GameEngine {
         if (userDefined) {
 
             Hero hero = new Hero("HERO", 3);
-            
+
             boolean heroExists = false;
-            
+
             if (gameDatabase.getHero(hero.getName()) != null)
                 heroExists = true;
 
@@ -647,20 +656,12 @@ public class GameEngine {
 
             outputString = "  Display Maps\n  -------------\n" + userInterface.loadMenu(UserInterface.menu.SHOWMAP, map.getMaps());
 
-            //userInterface.drawToScreen("  Display Maps\n  -------------");
-
-            //input = convertToInteger(userInterface.loadMenu(UserInterface.menu.SHOWMAP, map.getMaps()));
-
         }
         else {
 
             gameState = state.LISTMAP;
 
             outputString = "  Select Map\n  ------------\n" + userInterface.loadMenu(UserInterface.menu.SELECTMAP, map.getMaps());
-
-            //userInterface.drawToScreen("  Select Map\n  ------------");
-
-            //input = convertToInteger(userInterface.loadMenu(UserInterface.menu.SELECTMAP, map.getMaps()));
 
         }
 
@@ -678,20 +679,9 @@ public class GameEngine {
 
                             map.setMap(map.getMapFileName(input));
 
-                            if (showOnly) {
-
-                                //outputString = "";
-
-                                //userInterface.drawToScreen("");
-
+                            if (showOnly)
                                 outputString =  map.getMap() + "\n  Display Maps\n  -------------\n" +
                                                 userInterface.loadMenu(UserInterface.menu.SHOWMAP, map.getMaps());
-
-                                //userInterface.getInput(map.getMap() + "Press 'ENTER' to continue...");
-
-                                //listMaps(true);
-
-                            }
                             else {
 
                                 gameState = state.STARTGAME;
@@ -735,12 +725,12 @@ public class GameEngine {
 
     }
 
-    public String getUserInput() {
-        return userInput;
+    public int getKeyCode() {
+        return keyCode;
     }
 
-    public void setUserInput(String userInput) {
-        this.userInput = userInput;
+    public void setKeyCode(int keyCode) {
+        this.keyCode = keyCode;
     }
 
     public String getOutputString() {
@@ -751,7 +741,7 @@ public class GameEngine {
         this.outputString = outputString;
     }
 
-    public void setResetHero() {
+    public void resetHero() {
 
         resetHero = true;
 
@@ -761,9 +751,11 @@ public class GameEngine {
 
     }
 
-    public void setRestartGame() {
+    public void showMainMenu() {
 
         restartGame = true;
+
+        characters.clear();
 
         initializeGame();
 

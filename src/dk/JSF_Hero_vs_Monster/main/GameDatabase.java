@@ -157,7 +157,7 @@ public class GameDatabase {
             if (mapExists) {
 
                 sql =   "UPDATE mappaths SET mapdirectory = '" + mapDirectory +
-                        "',' mapfilename = " + mapFileName +
+                        "', mapfilename = '" + mapFileName +
                         "' WHERE heroname = '" + heroName + "';";
 
             }
