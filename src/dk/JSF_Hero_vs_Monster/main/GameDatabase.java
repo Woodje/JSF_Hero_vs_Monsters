@@ -29,7 +29,7 @@ public class GameDatabase {
      * If no database is found, then a new database will be created.
      * A result in the form of string will also be returned.
      */
-    private String ConnectToDB() {
+    private String ConnectToDatabase() {
         
         try {
 
@@ -57,7 +57,7 @@ public class GameDatabase {
         
         try {
             
-            ConnectToDB();
+            ConnectToDatabase();
 
             databaseStatement = databaseConnection.createStatement();
 
@@ -103,7 +103,7 @@ public class GameDatabase {
         
         try {
 
-            ConnectToDB();
+            ConnectToDatabase();
 
             databaseStatement = databaseConnection.createStatement();
 
@@ -148,7 +148,7 @@ public class GameDatabase {
 
         try {
 
-            ConnectToDB();
+            ConnectToDatabase();
 
             databaseStatement = databaseConnection.createStatement();
 
@@ -197,7 +197,7 @@ public class GameDatabase {
         
         try {
 
-            ConnectToDB();
+            ConnectToDatabase();
 
             databaseStatement = databaseConnection.createStatement();
 
@@ -277,7 +277,7 @@ public class GameDatabase {
         
         try {
             
-            ConnectToDB();
+            ConnectToDatabase();
 
             databaseStatement = databaseConnection.createStatement();
 

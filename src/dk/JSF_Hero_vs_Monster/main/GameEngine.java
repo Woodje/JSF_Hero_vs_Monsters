@@ -23,34 +23,41 @@ public class GameEngine {
     private Map map;
 
     /** This is used for user interfacing. */
-    private UserInterface userInterface = new UserInterface();
+    private UserInterface userInterface;
 
+    /** This is used for the communication with the database. */
     private GameDatabase gameDatabase;
 
+    /** Enumerations used for stating the different kinds of states that the game can be in. */
     private enum state { INITIALIZE, LISTMAPSHOWONLY, LISTMAP, STARTGAME, ERROR, GAMELOOP, COMBATSCENE, ENDCOMBATSCENE };
 
+    /** This is used for handling the games states. */
     private state gameState = state.INITIALIZE;
 
+    /** Booleans needed for controlling some of the games logic. */
     private boolean firstTimeListMaps, firstTimeCombatScene = true, resetHero, restartGame;
 
-    private String userInput;
-
+    /** This is used for holding the users key codes*/
     private int keyCode;
 
-    private String outputString = "  Welcome\n  --------------\n" + userInterface.loadMenu(UserInterface.menu.FIRST, "");
+    /** These strings represents the users input and the output that is presented for the user */
+    private String userInput, outputString;
 
     /**
      * Constructor.
-     * Instantiating of: userInterface, map and characters.
+     * Instantiating of: userInterface, map, characters and the starting value of the output string.
      */
     public GameEngine() {
 
         gameDatabase = new GameDatabase();
+        userInterface = new UserInterface();
         map = new Map();
         characters = new ArrayList<Character>();
+        outputString = "  Welcome\n  --------------\n" + userInterface.loadMenu(UserInterface.menu.FIRST, "");
 
     }
 
+    /** Convert the current keycode to a string and determines what function to call based on the games state. */
     public void updateUserInput() {
 
         if (keyCode >= 96 && keyCode <= 105 )
@@ -79,7 +86,7 @@ public class GameEngine {
 
     }
 
-    /** Represent the user for the first menu, and wait for an input. */
+    /** Represent the user for the first menu and reacts on the defined inputs. */
     public void initializeGame() {
 
         if (restartGame)
@@ -118,7 +125,7 @@ public class GameEngine {
     /**
      * Starts up the necessary precautions before starting the games loop.
      * Minimum one hero and one monster is created.
-     * The games loop will be started after an input is given.
+     * The games loop will be started when characters and a map is loaded.
      */
     private void startGame() {
 
@@ -154,13 +161,13 @@ public class GameEngine {
     /**
      *  This is the games loop from where the actual basic logic of the game takes place.
      *  Step 1: A user is prompted for an input for where to go.
-     *  Step 2: If no fight has occurred, the move the monsters.
+     *  Step 2: If no fight has occurred, then move the monsters.
      *  Step 3: If a fight has occurred, then enter a combat scene.
      *  Step 4: If a monster won the combat, the send the hero back to his previous location.
      *  Step 5: If the monster lost, then delete him from the game, reward the hero with experience and update the database.
-     *  Step 6: If there are no more monster left in the map, the spawn as many monsters at the hero's level. (Max 5)
+     *  Step 6: If there are no more monster left in the map, then spawn as many monsters as the hero's level. (Max 5)
      *  Step 7: Start over by prompting for an input for where to go.
-     *  The user is prompt for an input for each run through.
+     *  The output string is updated for each run through.
      */
     private void gameLoop() {
 
@@ -215,8 +222,8 @@ public class GameEngine {
 
                         outputString = combatScene.getCombatScene() + combatScene.getTextures(1);
 
-                        result += "\n  " + combatScene.getWinner().getName() + " wins the fight!\n" +
-                                "\n  You gained " + (combatScene.getWinner().getHealth() * 5) + " experience!\n";
+                        result +=   "\n  " + combatScene.getWinner().getName() + " wins the fight!\n" +
+                                    "\n  You gained " + (combatScene.getWinner().getHealth() * 5) + " experience!\n";
 
                         gameState = state.ENDCOMBATSCENE;
 
@@ -408,7 +415,7 @@ public class GameEngine {
 
     }
 
-    /** Exits the game and prints a little kind message */
+    /** Print a little kind message */
     private void exitGame() {
 
         outputString += "Thank you for playing...\n";
@@ -447,8 +454,8 @@ public class GameEngine {
 
     /**
      * Create either a user defined character (hero) or create one or more monsters depending on the map.
-     * The user will be asked to reset or continue if the specified hero name already exist in the database.
-     * Simple SQL injection avoidance is used for the entered user name.
+     * If the specified hero name already exist in the database, then load settings for that hero name.
+     * If the used have asked for a reset of the hero, then settings will be reset and updated in the database.
      * @param userDefined - True if the user should define a hero. False if monsters should be created.
      */
     private void createCharacter(boolean userDefined) {
@@ -725,22 +732,31 @@ public class GameEngine {
 
     }
 
+    /** Return the current keycode. */
     public int getKeyCode() {
         return keyCode;
     }
 
+    /** Set the keycode with the provided value.
+     *  @param keyCode - This is the key code.
+     */
     public void setKeyCode(int keyCode) {
         this.keyCode = keyCode;
     }
 
+    /** Return the output string. */
     public String getOutputString() {
         return outputString;
     }
 
+    /** Set the output string to with the provided string.
+     *  @param outputString - This is the string to use.
+     */
     public void setOutputString(String outputString) {
         this.outputString = outputString;
     }
 
+    /** Resets the hero's stats. */
     public void resetHero() {
 
         resetHero = true;
@@ -751,6 +767,7 @@ public class GameEngine {
 
     }
 
+    /** Redirect the user to the main menu. */
     public void showMainMenu() {
 
         restartGame = true;

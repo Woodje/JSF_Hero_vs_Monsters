@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>574</x>
+      <y>336</y>
+      <w>252</w>
+      <h>399</h>
+    </coordinates>
+    <panel_attributes>GameEngine
+--
+- characters : ArrayList&lt;Character&gt;
+- map : Map
+- userInterface : UserInterface
+- gameDatabase : GameDatabase
+- state : enum
+- gameState : state
+- firstTimeListMaps : boolean
+- firstTimeCombatScene : boolean
+- resetHero : boolean
+- restartGame : boolean
+- keyCode : int
+- userInput : String
+- outputString : String
+--
++ updateUserInput() : void
++ initializeGame() : void
+- startGame() : void
+- gameLoop() : void
+- getCharactersFighting() : Character[]
+- getStats() : String
+- processUserInput(String input) : void
+- moveMonsters() : void
+- exitGame() : void
+- moveCharacter(Character character, Point point) : void
+- createCharacter(boolean userDefined) : void
+- spawnExtraMonsters(int amount, int level) : void
+- listMaps(boolean showOnly) : void
+- convertToInteger(String string) : int
++ getKeyCode() : int
++ setKeyCode(int keyCode) : void
++ getOutputString() : String
++ setOutputString(String outputString) : void
++ resetHero() : void
++ showMainMenu() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>182</x>
+      <y>210</y>
+      <w>154</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;WEB&gt;&gt;
+index.xhtml</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>315</x>
+      <y>182</y>
+      <w>272</w>
+      <h>223</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Creates&gt;</panel_attributes>
+    <additional_attributes>21;35;70;35;105;35;147;35;203;35;231;35;231;210;259;210</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>182</x>
+      <y>560</y>
+      <w>280</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>UserInterface
+--
++ menu : enum
+--
++ loadMenu(menu menuType, String additionalString) : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>903</x>
+      <y>574</y>
+      <w>308</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>CombatScene
+--
+- character1 : Character
+- character2 : Character
+- winner : Character
+- loser : Character
+- combatScene : String
+--
++ getCombatScene() : String
+- addEmptySpace(int spaces) : String
++ attackWithSkill(String input, boolean attackFromHero) : String
+- calculateCharacterDamage(Character character, int skillIndex) : int
++ getWinner() : Character
++ getLoser() : Character
++ getTextures(int textureNumber) : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>903</x>
+      <y>469</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Hero
+--
+- experience : int
+- maxExperience : int
+--
++ setExperience(int experience) : void
++ getExperience() : int
++ getMaxExperience() : int
++ setLevel(int Level) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>903</x>
+      <y>413</y>
+      <w>182</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Monster
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1057</x>
+      <y>14</y>
+      <w>182</w>
+      <h>287</h>
+    </coordinates>
+    <panel_attributes>Character
+--
+- name : String
+- level : int
+- health : int
+- maxHealth : int
+- damage : int
+- location : Point
+- previousLocation : Point
+- texture : String[]
+- skillArray : Skill[]
+--
++ getName() : String
++ setLevel(int level) : void
++ getLevel() : int
++ setHealth(int health) : void
++ getHealth() : int
++ getMaxHealth() : int
++ getDamage() : int
++ setLocation(Point location) : void
++ getLocation() : Point
++ getPreviousLocation() : Point
++ setTexture(String[] texture) : void
++ getTexture() : String[]
++ setSkillArray(Skill skill, int index) : void
++ getSkillArray() : Skill[]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>441</x>
+      <y>532</y>
+      <w>146</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+&lt;Displays</panel_attributes>
+    <additional_attributes>21;35;133;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>805</x>
+      <y>385</y>
+      <w>111</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Creates&gt;</panel_attributes>
+    <additional_attributes>21;35;98;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>805</x>
+      <y>441</y>
+      <w>111</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Creates&gt;</panel_attributes>
+    <additional_attributes>21;35;98;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>441</x>
+      <y>231</y>
+      <w>146</w>
+      <h>265</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+&lt;Creates</panel_attributes>
+    <additional_attributes>21;35;35;35;42;35;49;35;56;35;63;35;70;35;84;35;84;252;133;252</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>805</x>
+      <y>546</y>
+      <w>111</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Creates&gt;</panel_attributes>
+    <additional_attributes>21;35;98;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1064</x>
+      <y>280</y>
+      <w>118</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>105;21;105;196;21;196</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1064</x>
+      <y>280</y>
+      <w>118</w>
+      <h>167</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>105;21;105;154;21;154</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>875</x>
+      <y>189</y>
+      <w>119</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Skill
+--
+- name : String
+- minDamage : int
+- maxDamage : int
+--
++ getName() : String
++ getMinDamage() : int
++ getMaxDamage() : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>973</x>
+      <y>238</y>
+      <w>97</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+&lt;Creates</panel_attributes>
+    <additional_attributes>84;35;21;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>182</x>
+      <y>259</y>
+      <w>280</w>
+      <h>287</h>
+    </coordinates>
+    <panel_attributes>Map
+--
+- wallSymbol : char
+- floorSymbol : char
+- heroSymbol : char
+- monsterSymbol : char
++ wallTexture : String[]
++ floorTexture : String[]
++ heroTexture : String[]
++ monsterTexture : String[]
++ fightTexture : String[]
+- mapDirectory : String
+- mapFileName : String
+- map : String[][][]
+--
++ getMapDirectory() : String
++ getMapFileName() : String
++ setMap(String mapFileName) : void
++ getMaps() : String
++ getMap() : String
++ getMapFileName(int index) : String
++ getMapsFiles() : File[]
++ getTextureLocations(String[] texture) : ArrayList&lt;Point&gt;
++ setTextureLocation(String[] texture, Point point) : void
++ moveTextureLocation(Point fromPoint, Point toPoint) : String
++ getLinesFromFile(String filePath) : ArrayList&lt;String&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1190</x>
+      <y>259</y>
+      <w>97</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=2
+Uses&gt;</panel_attributes>
+    <additional_attributes>21;322;56;322;35;322;84;322;84;21;49;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>525</x>
+      <y>749</y>
+      <w>350</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>GameDatabase
+--
+- databaseConnection : Connection
+- databaseStatement : Statement
+- heroExists : boolean
+- mapExists : boolean
+--
++ ConnectToDatabase() : String
++ CreateTables() : String
++ getMap(String heroName) : Map
++ setMap(String mapDirectory, String mapFileName, String heroName) : String
++ getHero(String name) : Hero
++ setHero(Hero hero) : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>476</x>
+      <y>560</y>
+      <w>111</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+&lt;Creates</panel_attributes>
+    <additional_attributes>98;35;21;35;70;35;21;35;21;196;49;196</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>854</x>
+      <y>210</y>
+      <w>461</w>
+      <h>560</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+Uses&gt;</panel_attributes>
+    <additional_attributes>21;546;448;546;175;546;448;546;448;21;385;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>126</x>
+      <y>245</y>
+      <w>412</w>
+      <h>559</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+&lt;Uses</panel_attributes>
+    <additional_attributes>399;546;336;546;336;385;21;385;21;21;56;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>98</x>
+      <y>175</y>
+      <w>790</w>
+      <h>664</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+&lt;Uses</panel_attributes>
+    <additional_attributes>427;651;329;651;329;483;21;483;21;21;777;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>574</x>
+      <y>210</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>MonsterSettings
+--
+- mapDirectory : String
+- mapFileName : String
+--
+- getDocument() : Document
++ getMonster(String monsterName) : Monster</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>763</x>
+      <y>252</y>
+      <w>118</w>
+      <h>118</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+&lt;Creates</panel_attributes>
+    <additional_attributes>63;105;105;105;105;70;49;70;49;21;21;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>763</x>
+      <y>182</y>
+      <w>125</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+Uses&gt;</panel_attributes>
+    <additional_attributes>21;35;112;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>763</x>
+      <y>224</y>
+      <w>377</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+Uses&gt;</panel_attributes>
+    <additional_attributes>21;21;98;21;98;77;259;77;140;77;259;77;259;91;364;91;364;196;322;196</additional_attributes>
+  </element>
+</diagram>

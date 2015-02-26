@@ -5,7 +5,7 @@ import javax.faces.bean.RequestScoped;
 import java.util.Scanner;
 
 /**
- * UserInterface.java - Used for displaying the game and retrieving inputs.
+ * UserInterface.java - Used for the representation of the games menus.
  * @author Simon Jon Pedersen
  * @author Kristoffer Broch Møller
  * @version 1.0 05/02-2015.
@@ -13,11 +13,11 @@ import java.util.Scanner;
 
 public class UserInterface {
 
-    /** Enumerations used for representing the different kind of menu's that is needed. */
+    /** Enumerations used for representing the different kinds of menu's that is needed. */
     public enum menu { FIRST, SHOWMAP, SELECTMAP, MOVEMENT, COMBAT };
 
     /**
-     * Print the specified menu type to the screen and return the inputs given for this menu.
+     * Return the specified menu type.
      * @param menuType - This is what type of menu to use.
      * @param additionalString - This is a string that can be used for creating a little more custom menu.
      */
