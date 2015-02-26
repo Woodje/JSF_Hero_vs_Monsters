@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>700</x>
+      <y>120</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>center:&lt;&lt;execution environment&gt;&gt;
+center:Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
