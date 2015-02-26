@@ -32,7 +32,7 @@ public class GameEngine {
     private enum state { INITIALIZE, LISTMAPSHOWONLY, LISTMAP, STARTGAME, MAPERROR, GAMELOOP, COMBATSCENE, ENDCOMBATSCENE };
 
     /** This is used for handling the games states. */
-    private state gameState = state.INITIALIZE;
+    private state gameState;
 
     /** Booleans needed for controlling some of the games logic. */
     private boolean firstTimeListMaps, firstTimeCombatScene = true, resetHero, restartGame;
@@ -50,9 +50,15 @@ public class GameEngine {
     public GameEngine() {
 
         gameDatabase = new GameDatabase();
+
         userInterface = new UserInterface();
+
         map = new Map();
+
         characters = new ArrayList<Character>();
+
+        gameState = state.INITIALIZE;
+
         outputString = "  Welcome\n  --------------\n" + userInterface.loadMenu(UserInterface.menu.FIRST, "");
 
     }
@@ -100,7 +106,7 @@ public class GameEngine {
 
         firstTimeListMaps = true;
 
-        gameDatabase.CreateTables();
+        gameDatabase.createTables();
 
         switch (convertToInteger(userInput.substring(userInput.length() - 1))) {
 

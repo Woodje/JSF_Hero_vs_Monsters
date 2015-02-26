@@ -4,10 +4,10 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>574</x>
-      <y>336</y>
+      <x>644</x>
+      <y>343</y>
       <w>252</w>
-      <h>399</h>
+      <h>385</h>
     </coordinates>
     <panel_attributes>GameEngine
 --
@@ -50,8 +50,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>182</x>
-      <y>210</y>
+      <x>252</x>
+      <y>217</y>
       <w>154</w>
       <h>28</h>
     </coordinates>
@@ -62,8 +62,8 @@ index.xhtml</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>315</x>
-      <y>182</y>
+      <x>385</x>
+      <y>189</y>
       <w>272</w>
       <h>223</h>
     </coordinates>
@@ -76,8 +76,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>182</x>
-      <y>560</y>
+      <x>252</x>
+      <y>567</y>
       <w>280</w>
       <h>49</h>
     </coordinates>
@@ -91,8 +91,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>903</x>
-      <y>574</y>
+      <x>973</x>
+      <y>581</y>
       <w>308</w>
       <h>161</h>
     </coordinates>
@@ -116,8 +116,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>903</x>
-      <y>469</y>
+      <x>973</x>
+      <y>476</y>
       <w>182</w>
       <h>91</h>
     </coordinates>
@@ -135,8 +135,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>903</x>
-      <y>413</y>
+      <x>973</x>
+      <y>420</y>
       <w>182</w>
       <h>28</h>
     </coordinates>
@@ -147,8 +147,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1057</x>
-      <y>14</y>
+      <x>1127</x>
+      <y>21</y>
       <w>182</w>
       <h>287</h>
     </coordinates>
@@ -183,8 +183,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>441</x>
-      <y>532</y>
+      <x>511</x>
+      <y>539</y>
       <w>146</w>
       <h>49</h>
     </coordinates>
@@ -197,8 +197,8 @@ m2=1
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>805</x>
-      <y>385</y>
+      <x>875</x>
+      <y>392</y>
       <w>111</w>
       <h>49</h>
     </coordinates>
@@ -211,8 +211,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>805</x>
-      <y>441</y>
+      <x>875</x>
+      <y>448</y>
       <w>111</w>
       <h>49</h>
     </coordinates>
@@ -225,8 +225,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>441</x>
-      <y>231</y>
+      <x>511</x>
+      <y>238</y>
       <w>146</w>
       <h>265</h>
     </coordinates>
@@ -239,8 +239,8 @@ m2=1
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>805</x>
-      <y>546</y>
+      <x>875</x>
+      <y>553</y>
       <w>111</w>
       <h>49</h>
     </coordinates>
@@ -253,8 +253,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1064</x>
-      <y>280</y>
+      <x>1134</x>
+      <y>287</y>
       <w>118</w>
       <h>209</h>
     </coordinates>
@@ -264,8 +264,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1064</x>
-      <y>280</y>
+      <x>1134</x>
+      <y>287</y>
       <w>118</w>
       <h>167</h>
     </coordinates>
@@ -275,8 +275,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>875</x>
-      <y>189</y>
+      <x>945</x>
+      <y>196</y>
       <w>119</w>
       <h>91</h>
     </coordinates>
@@ -295,8 +295,8 @@ Creates&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>973</x>
-      <y>238</y>
+      <x>1043</x>
+      <y>245</y>
       <w>97</w>
       <h>49</h>
     </coordinates>
@@ -309,8 +309,8 @@ m2=*
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>182</x>
-      <y>259</y>
+      <x>252</x>
+      <y>266</y>
       <w>280</w>
       <h>287</h>
     </coordinates>
@@ -345,8 +345,8 @@ m2=*
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1190</x>
-      <y>259</y>
+      <x>1260</x>
+      <y>266</y>
       <w>97</w>
       <h>336</h>
     </coordinates>
@@ -359,8 +359,8 @@ Uses&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>525</x>
-      <y>749</y>
+      <x>595</x>
+      <y>742</y>
       <w>350</w>
       <h>133</h>
     </coordinates>
@@ -371,8 +371,8 @@ Uses&gt;</panel_attributes>
 - heroExists : boolean
 - mapExists : boolean
 --
-+ ConnectToDatabase() : String
-+ CreateTables() : String
++ connectToDatabase() : String
++ createTables() : String
 + getMap(String heroName) : Map
 + setMap(String mapDirectory, String mapFileName, String heroName) : String
 + getHero(String name) : Hero
@@ -382,22 +382,22 @@ Uses&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>476</x>
-      <y>560</y>
+      <x>546</x>
+      <y>567</y>
       <w>111</w>
-      <h>209</h>
+      <h>195</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1
 &lt;Creates</panel_attributes>
-    <additional_attributes>98;35;21;35;70;35;21;35;21;196;49;196</additional_attributes>
+    <additional_attributes>98;35;21;35;70;35;21;35;21;182;49;182</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>854</x>
-      <y>210</y>
+      <x>924</x>
+      <y>217</y>
       <w>461</w>
       <h>560</h>
     </coordinates>
@@ -410,36 +410,36 @@ Uses&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>126</x>
-      <y>245</y>
+      <x>196</x>
+      <y>252</y>
       <w>412</w>
-      <h>559</h>
+      <h>545</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=*
 &lt;Uses</panel_attributes>
-    <additional_attributes>399;546;336;546;336;385;21;385;21;21;56;21</additional_attributes>
+    <additional_attributes>399;532;336;532;336;385;21;385;21;21;56;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>98</x>
-      <y>175</y>
+      <x>168</x>
+      <y>182</y>
       <w>790</w>
-      <h>664</h>
+      <h>650</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=*
 &lt;Uses</panel_attributes>
-    <additional_attributes>427;651;329;651;329;483;21;483;21;21;777;21</additional_attributes>
+    <additional_attributes>427;637;329;637;329;483;21;483;21;21;777;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>574</x>
-      <y>210</y>
+      <x>644</x>
+      <y>217</y>
       <w>210</w>
       <h>70</h>
     </coordinates>
@@ -455,8 +455,8 @@ m2=*
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>763</x>
-      <y>252</y>
+      <x>833</x>
+      <y>259</y>
       <w>118</w>
       <h>118</h>
     </coordinates>
@@ -469,8 +469,8 @@ m2=*
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>763</x>
-      <y>182</y>
+      <x>833</x>
+      <y>189</y>
       <w>125</w>
       <h>49</h>
     </coordinates>
@@ -483,8 +483,8 @@ Uses&gt;</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>763</x>
-      <y>224</y>
+      <x>833</x>
+      <y>231</y>
       <w>377</w>
       <h>209</h>
     </coordinates>
@@ -493,5 +493,16 @@ m1=1
 m2=*
 Uses&gt;</panel_attributes>
     <additional_attributes>21;21;98;21;98;77;259;77;140;77;259;77;259;91;364;91;364;196;322;196</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>168</x>
+      <y>7</y>
+      <w>1225</w>
+      <h>882</h>
+    </coordinates>
+    <panel_attributes>CLASS DIAGRAM - JSF_HERO_vs_MONSTERS</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
