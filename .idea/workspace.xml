@@ -29,18 +29,8 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8846154" vertical-offset="137" max-vertical-offset="1003">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/UserInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="935">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state vertical-scroll-proportion="-9.461538" vertical-offset="111" max-vertical-offset="1003">
+              <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -49,13 +39,11 @@
       <file leaf-file-name="GameEngine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34274194" vertical-offset="0" max-vertical-offset="2839">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.20964126" vertical-offset="527" max-vertical-offset="4777">
+              <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-                <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-                <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -66,146 +54,10 @@
                 <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-                <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Skill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Skill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="978" max-vertical-offset="1870">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="method#Map#0;class#Map#0" expanded="false" />
-                <element signature="method#Map#1;class#Map#0" expanded="false" />
-                <element signature="method#getMapDirectory#0;class#Map#0" expanded="false" />
-                <element signature="method#getMapFileName#0;class#Map#0" expanded="false" />
-                <element signature="method#setMap#0;class#Map#0" expanded="false" />
-                <element signature="method#getMaps#0;class#Map#0" expanded="false" />
-                <element signature="method#getMap#0;class#Map#0" expanded="false" />
-                <element signature="method#getMapFileName#1;class#Map#0" expanded="false" />
-                <element signature="method#getMapFiles#0;class#Map#0" expanded="false" />
-                <element signature="method#getTextureLocations#0;class#Map#0" expanded="false" />
-                <element signature="method#setTextureLocation#0;class#Map#0" expanded="false" />
-                <element signature="method#moveTextureLocation#0;class#Map#0" expanded="false" />
-                <element signature="method#getLinesFromFile#0;class#Map#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CombatScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/CombatScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1275">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-              <folding>
-                <element signature="method#CombatScene#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#getCombatScene#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#addEmptySpace#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#attackWithSkill#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#calculateCharacterDamage#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#getWinner#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#getLoser#0;class#CombatScene#0" expanded="false" />
-                <element signature="method#getTextures#0;class#CombatScene#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="1904">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="method#Character#0;class#Character#0" expanded="false" />
-                <element signature="method#getName#0;class#Character#0" expanded="false" />
-                <element signature="method#setLevel#0;class#Character#0" expanded="false" />
-                <element signature="method#getLevel#0;class#Character#0" expanded="false" />
-                <element signature="method#setHealth#0;class#Character#0" expanded="false" />
-                <element signature="method#getHealth#0;class#Character#0" expanded="false" />
-                <element signature="method#getMaxHealth#0;class#Character#0" expanded="false" />
-                <element signature="method#getDamage#0;class#Character#0" expanded="false" />
-                <element signature="method#setLocation#0;class#Character#0" expanded="false" />
-                <element signature="method#getLocation#0;class#Character#0" expanded="false" />
-                <element signature="method#getPreviousLocation#0;class#Character#0" expanded="false" />
-                <element signature="method#setTexture#0;class#Character#0" expanded="false" />
-                <element signature="method#getTexture#0;class#Character#0" expanded="false" />
-                <element signature="method#setSkillArray#0;class#Character#0" expanded="false" />
-                <element signature="method#getSkillArray#0;class#Character#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameDatabase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1275">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#ConnectToDatabase#0;class#GameDatabase#0" expanded="false" />
-                <element signature="method#CreateTables#0;class#GameDatabase#0" expanded="false" />
-                <element signature="method#getMap#0;class#GameDatabase#0" expanded="false" />
-                <element signature="method#setMap#0;class#GameDatabase#0" expanded="false" />
-                <element signature="method#getHero#0;class#GameDatabase#0" expanded="false" />
-                <element signature="method#setHero#0;class#GameDatabase#0" expanded="false" />
-                <marker date="1424935361819" expanded="true" signature="1875:2031" placeholder="CREATE TABLE..heros..." />
-                <marker date="1424935361819" expanded="true" signature="2106:2197" placeholder="CREATE TABLE..herotextures..." />
-                <marker date="1424935361819" expanded="true" signature="2272:2351" placeholder="CREATE TABLE..heroskills..." />
-                <marker date="1424935361819" expanded="true" signature="2426:2499" placeholder="CREATE TABLE..mappaths..." />
-                <marker date="1424935361819" expanded="true" signature="3291:3349" placeholder="SELECT * FRO..mappaths..." />
-                <marker date="1424935361819" expanded="true" signature="4572:4750" placeholder="UPDATE mappa..." />
-                <marker date="1424935361819" expanded="true" signature="4814:4943" placeholder="INSERT INTO ..." />
-                <marker date="1424935361819" expanded="true" signature="5785:5832" placeholder="SELECT * FRO..heros..." />
-                <marker date="1424935361819" expanded="true" signature="6734:6792" placeholder="SELECT * FRO..herotextures..." />
-                <marker date="1424935361819" expanded="true" signature="7239:7295" placeholder="SELECT * FRO..heroskills..." />
-                <marker date="1424935361819" expanded="true" signature="8407:9009" placeholder="UPDATE heros..." />
-                <marker date="1424935361819" expanded="true" signature="9821:10442" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hero.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Hero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="method#Hero#0;class#Hero#0" expanded="false" />
-                <element signature="method#setExperience#0;class#Hero#0" expanded="false" />
-                <element signature="method#getExperience#0;class#Hero#0" expanded="false" />
-                <element signature="method#getMaxExperience#0;class#Hero#0" expanded="false" />
-                <element signature="method#setLevel#0;class#Hero#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Monster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -277,8 +129,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -745,45 +597,46 @@
       <workItem from="1424801758487" duration="24890000" />
       <workItem from="1424881756198" duration="2821000" />
       <workItem from="1424934776117" duration="4417000" />
+      <workItem from="1424940455880" duration="3399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70161000" />
+    <option name="totallyTimeSpent" value="73560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1050" extended-state="1" />
+    <frame x="-9" y="-9" width="1932" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16864865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973877" sideWeight="0.4993498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973877" sideWeight="0.4993498" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50065017" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -816,29 +669,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1003">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="1003">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="935">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1597" max-vertical-offset="7497">
-          <caret line="200" column="74" selection-start-line="200" selection-start-column="74" selection-end-line="200" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -849,7 +700,154 @@
             <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Skill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1037">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="978" max-vertical-offset="1870">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="method#Map#0;class#Map#0" expanded="false" />
+            <element signature="method#Map#1;class#Map#0" expanded="false" />
+            <element signature="method#getMapDirectory#0;class#Map#0" expanded="false" />
+            <element signature="method#getMapFileName#0;class#Map#0" expanded="false" />
+            <element signature="method#setMap#0;class#Map#0" expanded="false" />
+            <element signature="method#getMaps#0;class#Map#0" expanded="false" />
+            <element signature="method#getMap#0;class#Map#0" expanded="false" />
+            <element signature="method#getMapFileName#1;class#Map#0" expanded="false" />
+            <element signature="method#getMapFiles#0;class#Map#0" expanded="false" />
+            <element signature="method#getTextureLocations#0;class#Map#0" expanded="false" />
+            <element signature="method#setTextureLocation#0;class#Map#0" expanded="false" />
+            <element signature="method#moveTextureLocation#0;class#Map#0" expanded="false" />
+            <element signature="method#getLinesFromFile#0;class#Map#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/CombatScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1275">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="method#CombatScene#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#getCombatScene#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#addEmptySpace#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#attackWithSkill#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#calculateCharacterDamage#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#getWinner#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#getLoser#0;class#CombatScene#0" expanded="false" />
+            <element signature="method#getTextures#0;class#CombatScene#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="1904">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="method#Character#0;class#Character#0" expanded="false" />
+            <element signature="method#getName#0;class#Character#0" expanded="false" />
+            <element signature="method#setLevel#0;class#Character#0" expanded="false" />
+            <element signature="method#getLevel#0;class#Character#0" expanded="false" />
+            <element signature="method#setHealth#0;class#Character#0" expanded="false" />
+            <element signature="method#getHealth#0;class#Character#0" expanded="false" />
+            <element signature="method#getMaxHealth#0;class#Character#0" expanded="false" />
+            <element signature="method#getDamage#0;class#Character#0" expanded="false" />
+            <element signature="method#setLocation#0;class#Character#0" expanded="false" />
+            <element signature="method#getLocation#0;class#Character#0" expanded="false" />
+            <element signature="method#getPreviousLocation#0;class#Character#0" expanded="false" />
+            <element signature="method#setTexture#0;class#Character#0" expanded="false" />
+            <element signature="method#getTexture#0;class#Character#0" expanded="false" />
+            <element signature="method#setSkillArray#0;class#Character#0" expanded="false" />
+            <element signature="method#getSkillArray#0;class#Character#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1275">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ConnectToDatabase#0;class#GameDatabase#0" expanded="false" />
+            <element signature="method#CreateTables#0;class#GameDatabase#0" expanded="false" />
+            <element signature="method#getMap#0;class#GameDatabase#0" expanded="false" />
+            <element signature="method#setMap#0;class#GameDatabase#0" expanded="false" />
+            <element signature="method#getHero#0;class#GameDatabase#0" expanded="false" />
+            <element signature="method#setHero#0;class#GameDatabase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="867">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="method#Hero#0;class#Hero#0" expanded="false" />
+            <element signature="method#setExperience#0;class#Hero#0" expanded="false" />
+            <element signature="method#getExperience#0;class#Hero#0" expanded="false" />
+            <element signature="method#getMaxExperience#0;class#Hero#0" expanded="false" />
+            <element signature="method#setLevel#0;class#Hero#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="493">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1003">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1597" max-vertical-offset="7497">
+          <caret line="200" column="74" selection-start-line="200" selection-start-column="74" selection-end-line="200" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#exitGame#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
             <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
             <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
             <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
@@ -903,8 +901,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -915,7 +911,6 @@
             <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
             <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
             <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
             <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
@@ -935,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,8 +940,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -958,7 +950,6 @@
             <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
             <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
             <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
             <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
@@ -978,18 +969,6 @@
             <element signature="method#setMap#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#getHero#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#setHero#0;class#GameDatabase#0" expanded="false" />
-            <marker date="1424935361819" expanded="true" signature="1875:2031" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424935361819" expanded="true" signature="2106:2197" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="2272:2351" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="2426:2499" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="3291:3349" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="4572:4750" placeholder="UPDATE mappa..." />
-            <marker date="1424935361819" expanded="true" signature="4814:4943" placeholder="INSERT INTO ..." />
-            <marker date="1424935361819" expanded="true" signature="5785:5832" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424935361819" expanded="true" signature="6734:6792" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="7239:7295" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="8407:9009" placeholder="UPDATE heros..." />
-            <marker date="1424935361819" expanded="true" signature="9821:10442" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1055,8 +1034,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -1067,7 +1044,6 @@
             <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
             <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
             <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
             <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
@@ -1087,18 +1063,6 @@
             <element signature="method#setMap#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#getHero#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#setHero#0;class#GameDatabase#0" expanded="false" />
-            <marker date="1424935361819" expanded="true" signature="1875:2031" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424935361819" expanded="true" signature="2106:2197" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="2272:2351" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="2426:2499" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="3291:3349" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="4572:4750" placeholder="UPDATE mappa..." />
-            <marker date="1424935361819" expanded="true" signature="4814:4943" placeholder="INSERT INTO ..." />
-            <marker date="1424935361819" expanded="true" signature="5785:5832" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424935361819" expanded="true" signature="6734:6792" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="7239:7295" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="8407:9009" placeholder="UPDATE heros..." />
-            <marker date="1424935361819" expanded="true" signature="9821:10442" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1164,8 +1128,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -1176,7 +1138,6 @@
             <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
             <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
             <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
             <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />
@@ -1196,18 +1157,6 @@
             <element signature="method#setMap#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#getHero#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#setHero#0;class#GameDatabase#0" expanded="false" />
-            <marker date="1424935361819" expanded="true" signature="1875:2031" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424935361819" expanded="true" signature="2106:2197" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="2272:2351" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="2426:2499" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="3291:3349" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="4572:4750" placeholder="UPDATE mappa..." />
-            <marker date="1424935361819" expanded="true" signature="4814:4943" placeholder="INSERT INTO ..." />
-            <marker date="1424935361819" expanded="true" signature="5785:5832" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424935361819" expanded="true" signature="6734:6792" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="7239:7295" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="8407:9009" placeholder="UPDATE heros..." />
-            <marker date="1424935361819" expanded="true" signature="9821:10442" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1281,7 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.076233186" vertical-offset="0" max-vertical-offset="892">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,40 +1278,6 @@
             <element signature="method#setMap#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#getHero#0;class#GameDatabase#0" expanded="false" />
             <element signature="method#setHero#0;class#GameDatabase#0" expanded="false" />
-            <marker date="1424935361819" expanded="true" signature="1875:2031" placeholder="CREATE TABLE..heros..." />
-            <marker date="1424935361819" expanded="true" signature="2106:2197" placeholder="CREATE TABLE..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="2272:2351" placeholder="CREATE TABLE..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="2426:2499" placeholder="CREATE TABLE..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="3291:3349" placeholder="SELECT * FRO..mappaths..." />
-            <marker date="1424935361819" expanded="true" signature="4572:4750" placeholder="UPDATE mappa..." />
-            <marker date="1424935361819" expanded="true" signature="4814:4943" placeholder="INSERT INTO ..." />
-            <marker date="1424935361819" expanded="true" signature="5785:5832" placeholder="SELECT * FRO..heros..." />
-            <marker date="1424935361819" expanded="true" signature="6734:6792" placeholder="SELECT * FRO..herotextures..." />
-            <marker date="1424935361819" expanded="true" signature="7239:7295" placeholder="SELECT * FRO..heroskills..." />
-            <marker date="1424935361819" expanded="true" signature="8407:9009" placeholder="UPDATE heros..." />
-            <marker date="1424935361819" expanded="true" signature="9821:10442" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="978" max-vertical-offset="1870">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="method#Map#0;class#Map#0" expanded="false" />
-            <element signature="method#Map#1;class#Map#0" expanded="false" />
-            <element signature="method#getMapDirectory#0;class#Map#0" expanded="false" />
-            <element signature="method#getMapFileName#0;class#Map#0" expanded="false" />
-            <element signature="method#setMap#0;class#Map#0" expanded="false" />
-            <element signature="method#getMaps#0;class#Map#0" expanded="false" />
-            <element signature="method#getMap#0;class#Map#0" expanded="false" />
-            <element signature="method#getMapFileName#1;class#Map#0" expanded="false" />
-            <element signature="method#getMapFiles#0;class#Map#0" expanded="false" />
-            <element signature="method#getTextureLocations#0;class#Map#0" expanded="false" />
-            <element signature="method#setTextureLocation#0;class#Map#0" expanded="false" />
-            <element signature="method#moveTextureLocation#0;class#Map#0" expanded="false" />
-            <element signature="method#getLinesFromFile#0;class#Map#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1422,23 +1336,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.10538117" vertical-offset="978" max-vertical-offset="1870">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="method#Map#0;class#Map#0" expanded="false" />
+            <element signature="method#Map#1;class#Map#0" expanded="false" />
+            <element signature="method#getMapDirectory#0;class#Map#0" expanded="false" />
+            <element signature="method#getMapFileName#0;class#Map#0" expanded="false" />
+            <element signature="method#setMap#0;class#Map#0" expanded="false" />
+            <element signature="method#getMaps#0;class#Map#0" expanded="false" />
+            <element signature="method#getMap#0;class#Map#0" expanded="false" />
+            <element signature="method#getMapFileName#1;class#Map#0" expanded="false" />
+            <element signature="method#getMapFiles#0;class#Map#0" expanded="false" />
+            <element signature="method#getTextureLocations#0;class#Map#0" expanded="false" />
+            <element signature="method#setTextureLocation#0;class#Map#0" expanded="false" />
+            <element signature="method#moveTextureLocation#0;class#Map#0" expanded="false" />
+            <element signature="method#getLinesFromFile#0;class#Map#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8846154" vertical-offset="137" max-vertical-offset="1003">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.461538" vertical-offset="111" max-vertical-offset="1003">
+          <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34274194" vertical-offset="0" max-vertical-offset="2839">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.20964126" vertical-offset="527" max-vertical-offset="4777">
+          <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#updateUserInput#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#initializeGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
@@ -1449,7 +1383,6 @@
             <element signature="method#moveCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#createCharacter#0;class#GameEngine#0" expanded="false" />
             <element signature="method#spawnExtraMonsters#0;class#GameEngine#0" expanded="false" />
-            <element signature="method#listMaps#0;class#GameEngine#0" expanded="false" />
             <element signature="method#convertToInteger#0;class#GameEngine#0" expanded="false" />
             <element signature="method#resetHero#0;class#GameEngine#0" expanded="false" />
             <element signature="method#showMainMenu#0;class#GameEngine#0" expanded="false" />

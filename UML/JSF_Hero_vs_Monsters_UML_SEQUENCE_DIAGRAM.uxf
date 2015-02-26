@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>550</x>
+      <y>70</y>
+      <w>840</w>
+      <h>750</h>
+    </coordinates>
+    <panel_attributes>SEQUENCE DIAGRAM - JSF_HERO_VS_MONSTERS (GameEngine)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>570</x>
+      <y>110</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;actor&gt;&gt;
+_:USER_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>900</x>
+      <y>110</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>_:GameEngine_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>590</x>
+      <y>120</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>30;30;30;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>610</x>
+      <y>180</y>
+      <w>20</w>
+      <h>610</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>920</x>
+      <y>120</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>30;30;30;70</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>940</x>
+      <y>190</y>
+      <w>20</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>140</y>
+      <w>360</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+updateUserInput</panel_attributes>
+    <additional_attributes>340;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>740</y>
+      <w>360</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+outputString
+</panel_attributes>
+    <additional_attributes>30;50;340;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>0</x>
+      <y>40</y>
+      <w>450</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>interaction frame
+--
+ 
+with inner frames
+-.
+ 
+ 
+ 
+ 
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>40</x>
+      <y>110</y>
+      <w>390</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>interaction frame</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>40</x>
+      <y>190</y>
+      <w>390</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>interaction frame
+--
+inner</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>640</x>
+      <y>220</y>
+      <w>690</w>
+      <h>530</h>
+    </coordinates>
+    <panel_attributes>alt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>260</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.INITIALIZE ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>250</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>260</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Initialize the game
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>280</y>
+      <w>800</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>30;30;780;30</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>330</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.LISTMAPSHOWONLY ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>320</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>350</y>
+      <w>800</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>30;30;780;30</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>400</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.LISTMAP ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>390</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>420</y>
+      <w>800</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>30;30;780;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>460</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>470</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.STARTGAME ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>490</y>
+      <w>800</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>30;30;780;30</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>540</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.MAPERROR ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>530</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>560</y>
+      <w>800</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>30;30;780;30</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>610</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.GAMELOOP ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>600</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>630</y>
+      <w>800</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>30;30;780;30</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>680</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.COMBATSCENE ]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>970</x>
+      <y>670</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>330</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Select a map to display</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>400</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Select a map to play</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>470</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Start the game</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>540</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Select another map to play</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>610</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Start the game loop</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1100</x>
+      <y>680</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Start the combat scene</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

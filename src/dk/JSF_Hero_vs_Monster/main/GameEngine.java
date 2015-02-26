@@ -29,7 +29,7 @@ public class GameEngine {
     private GameDatabase gameDatabase;
 
     /** Enumerations used for stating the different kinds of states that the game can be in. */
-    private enum state { INITIALIZE, LISTMAPSHOWONLY, LISTMAP, STARTGAME, ERROR, GAMELOOP, COMBATSCENE, ENDCOMBATSCENE };
+    private enum state { INITIALIZE, LISTMAPSHOWONLY, LISTMAP, STARTGAME, MAPERROR, GAMELOOP, COMBATSCENE, ENDCOMBATSCENE };
 
     /** This is used for handling the games states. */
     private state gameState = state.INITIALIZE;
@@ -75,7 +75,7 @@ public class GameEngine {
                  break;
             case STARTGAME: startGame();
                  break;
-            case ERROR: listMaps(false);
+            case MAPERROR: listMaps(false);
                  break;
             case GAMELOOP: gameLoop();
                  break;
@@ -132,16 +132,16 @@ public class GameEngine {
         if (gameState == state.INITIALIZE && gameDatabase.getHero("HERO") == null || gameState == state.INITIALIZE && resetHero)
             listMaps(false);
 
-        if (gameState != state.LISTMAP && gameState != state.ERROR) {
+        if (gameState != state.LISTMAP && gameState != state.MAPERROR) {
 
             createCharacter(true);
 
-            if (gameState != state.ERROR)
+            if (gameState != state.MAPERROR)
                 createCharacter(false);
 
         }
 
-        if (gameState == state.ERROR)
+        if (gameState == state.MAPERROR)
             outputString += "\n  Select a new Map\n  -------------\n" + userInterface.loadMenu(UserInterface.menu.SHOWMAP, map.getMaps());
 
         if (characters.size() > 1) {
@@ -510,7 +510,7 @@ public class GameEngine {
 
                         characters.clear();
 
-                        gameState = state.ERROR;
+                        gameState = state.MAPERROR;
 
                         firstTimeListMaps = true;
 
@@ -566,7 +566,7 @@ public class GameEngine {
 
                     characters.clear();
 
-                    gameState = state.ERROR;
+                    gameState = state.MAPERROR;
 
                     firstTimeListMaps = true;
 
