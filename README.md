@@ -7,5 +7,3 @@
 --
 ![Screenshot_4](/screenshots/Gameplay_Combat_Win.PNG?raw=true "Gameplay_Combat_Win")
 --
-![UML_CLASS_DIAGRAM](/UML/JSF_Hero_vs_Monsters_UML_CLASS_DIAGRAM.PNG?raw=true "UML_CLASS_DIAGRAM")
---
