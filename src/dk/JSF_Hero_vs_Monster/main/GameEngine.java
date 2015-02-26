@@ -171,6 +171,8 @@ public class GameEngine {
      */
     private void gameLoop() {
 
+        boolean isInCombat = false;
+
         outputString = getStats() + map.getMap() + userInterface.loadMenu(UserInterface.menu.MOVEMENT, "Where to go?  ");
 
         processUserInput(userInput.substring(userInput.length() - 1));
@@ -191,6 +193,8 @@ public class GameEngine {
             outputString = getStats() + map.getMap() + "You have entered combat, press any key to start the fight!";
 
             if (combatScene.getWinner() == null && gameState == state.COMBATSCENE) {
+
+                isInCombat = true;
 
                 if (charactersFighting[0].getHealth() == charactersFighting[0].getMaxHealth())
                     outputString = combatScene.getCombatScene() + combatScene.getTextures(0);
@@ -290,6 +294,35 @@ public class GameEngine {
                 gameState = state.COMBATSCENE;
 
         }
+
+        if (!isInCombat) {
+
+            for (int i = 0; i < 2; i++)
+                outputString = outputString.replaceAll(map.monsterTexture[i], "<span id=\"monsterTexture\">" + map.monsterTexture[i] + "</span>");
+
+            outputString = outputString.replaceAll("_/ \\\\_", "<span id=\"monsterTexture\">_/ \\\\_</span>");
+
+            for (int i = 0; i < 2; i++)
+                outputString = outputString.replaceAll(map.heroTexture[i], "<span id=\"heroTexture\">" + map.heroTexture[i] + "</span>");
+
+            outputString = outputString.replaceAll(" / \\\\ ", "<span id=\"heroTexture\">" + " / \\\\ " + "</span>");
+
+            outputString = outputString.replaceAll(map.wallTexture[0], "<span id=\"wallTexture\">=====</span>");
+
+            outputString = outputString.replaceAll(map.floorTexture[0], "<span id=\"floorTexture\">     </span>");
+
+            outputString = outputString.replaceAll("\\" + map.fightTexture[0], "<span id=\"fightTexture\">" + "\\" + map.fightTexture[0] + "</span>");
+
+            outputString = outputString.replaceAll(map.fightTexture[1], "<span id=\"fightTexture\">" + map.fightTexture[1] + "</span>");
+
+            outputString = outputString.replaceAll(map.fightTexture[2] + "\\", "<span id=\"fightTexture\">" + map.fightTexture[2] + "\\" + "</span>");
+
+        }
+        else
+            outputString = outputString.replaceAll("\\$", "<span id=\"combatScene\">\\$</span>");
+
+        if (gameState == state.ENDCOMBATSCENE)
+            isInCombat = false;
 
     }
 

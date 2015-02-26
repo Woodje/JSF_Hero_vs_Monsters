@@ -15,7 +15,7 @@
 
            <h:form id="GameForm">
 
-               <pre><h:outputText id="output" value="#{ GameEngine.outputString }" /></pre>
+               <pre><h:outputText id="output" escape="false" value="#{ GameEngine.outputString }" /></pre>
 
                <h:inputHidden id="keyCode" binding="#{keyCode}" value="#{ GameEngine.keyCode }" />
 
@@ -23,7 +23,7 @@
                    <f:ajax execute="keyCode" render="output outputter" />
                </h:commandLink>
                
-               <h:commandButton id="MainMenuButton" value="MAIN MENU" action="#{ GameEngine.showMainMenu() }">
+               <h:commandButton value="MAIN MENU" action="#{ GameEngine.showMainMenu() }">
                    <f:ajax render="output" />
                </h:commandButton>
 
@@ -35,13 +35,11 @@
 
            <script type="text/javascript">
 
-                   document.getElementById('GameForm:MainMenuButton').focus();
+                   document.onkeyup = function(event) {
 
-                   document.onkeyup = function(evt) {
+                       event = event || window.event;
 
-                       evt = evt || window.event;
-
-                       document.getElementById('#{keyCode.clientId}').value=evt.keyCode;
+                       document.getElementById('#{keyCode.clientId}').value=event.keyCode;
 
                        document.getElementById('GameForm:runKeyCode').click();
 

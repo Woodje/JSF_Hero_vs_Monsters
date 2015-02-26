@@ -5,3 +5,32 @@ body {
     font-weight: bold;;
     text-align: center;
 }
+
+span#wallTexture {
+    color: white;
+    background-color: red;
+}
+
+span#heroTexture {
+    color: blue;
+    background-color: burlywood;
+}
+
+span#monsterTexture {
+    color: black;
+    background-color: burlywood;
+}
+
+span#floorTexture {
+    background-color: burlywood;
+}
+
+span#fightTexture {
+    color: white;
+    background-color: red;
+}
+
+span#combatScene {
+    color: darkslategray;
+    background-color: darkgray;
+}

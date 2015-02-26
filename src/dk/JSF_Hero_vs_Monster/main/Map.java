@@ -22,13 +22,13 @@ public class Map {
     public final String[] floorTexture = { "     ", "     ", "     " };
 
     /** Three pieces that make up the texture representing a hero. */
-    public final String[] heroTexture = { "  o/ ", " /|  ", " / \\ " };
+    public final String[] heroTexture = { "  o/ ", " /:  ", " / \\ " };
 
     /** Three pieces that make up the texture representing a monster. */
-    public final String[] monsterTexture = { "|O-O|", ">-X-<", "_/ \\_" };
+    public final String[] monsterTexture = { ":O-O:", ">-X-<", "_/ \\_" };
 
     /** Three pieces that make up the texture representing a fight. */
-    public final String[] fightTexture = { "\\-|-/", "FIGHT", "/-|-\\" };
+    public final String[] fightTexture = { "\\-:-/", "FIGHT", "/-:-\\" };
 
     /** This is the directory from where the map files is to be found. */
     private String mapDirectory;
