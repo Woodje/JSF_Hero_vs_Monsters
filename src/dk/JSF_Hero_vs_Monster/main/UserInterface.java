@@ -8,7 +8,7 @@ import java.util.Scanner;
  * UserInterface.java - Used for the representation of the games menus.
  * @author Simon Jon Pedersen
  * @author Kristoffer Broch Møller
- * @version 1.0 05/02-2015.
+ * @version 2.0 26/02-2015.
  */
 
 public class UserInterface {

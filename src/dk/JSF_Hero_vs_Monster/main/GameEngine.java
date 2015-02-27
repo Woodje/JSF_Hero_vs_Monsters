@@ -9,7 +9,7 @@ import java.util.Arrays;
  * GameEngine - Used for controlling the basic logic of the game.
  * @author Simon Jon Pedersen
  * @author Kristoffer Broch Møller
- * @version 2.0 19/02-2015.
+ * @version 3.0 26/02-2015.
  */
 
 @ManagedBean(name = "GameEngine")
