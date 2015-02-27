@@ -39,7 +39,7 @@
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="697">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
@@ -49,13 +49,14 @@
       <file leaf-file-name="GameEngine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9618834" vertical-offset="1131" max-vertical-offset="5338">
-              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.7914798" vertical-offset="1369" max-vertical-offset="4777">
+              <caret line="732" column="60" selection-start-line="732" selection-start-column="60" selection-end-line="732" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+                <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
                 <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
@@ -746,12 +747,12 @@
       <workItem from="1424934776117" duration="4417000" />
       <workItem from="1424940455880" duration="3399000" />
       <workItem from="1424945807697" duration="14207000" />
-      <workItem from="1424980810171" duration="2804000" />
+      <workItem from="1424980810171" duration="6949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90571000" />
+    <option name="totallyTimeSpent" value="94716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -914,6 +915,7 @@
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
             <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
             <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
@@ -975,6 +977,7 @@
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
             <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
             <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
@@ -1013,6 +1016,7 @@
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
             <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
             <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
@@ -1117,6 +1121,7 @@
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
             <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
             <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
@@ -1221,6 +1226,7 @@
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
             <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
             <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
@@ -1507,14 +1513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="969">
@@ -1551,15 +1549,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/JSF_Hero_vs_Monster/main/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9618834" vertical-offset="1131" max-vertical-offset="5338">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.7914798" vertical-offset="1369" max-vertical-offset="4777">
+          <caret line="732" column="60" selection-start-line="732" selection-start-column="60" selection-end-line="732" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GameEngine#0;class#GameEngine#0" expanded="false" />
             <element signature="method#startGame#0;class#GameEngine#0" expanded="false" />
             <element signature="method#gameLoop#0;class#GameEngine#0" expanded="false" />
+            <element signature="method#getCharactersFighting#0;class#GameEngine#0" expanded="false" />
             <element signature="method#getStats#0;class#GameEngine#0" expanded="false" />
             <element signature="method#processUserInput#0;class#GameEngine#0" expanded="false" />
             <element signature="method#moveMonsters#0;class#GameEngine#0" expanded="false" />
