@@ -4,8 +4,8 @@
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>384</x>
-      <y>192</y>
+      <x>1648</x>
+      <y>512</y>
       <w>672</w>
       <h>616</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>400</x>
-      <y>224</y>
+      <x>1664</x>
+      <y>544</y>
       <w>80</w>
       <h>32</h>
     </coordinates>
@@ -27,8 +27,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>664</x>
-      <y>224</y>
+      <x>1928</x>
+      <y>544</y>
       <w>80</w>
       <h>32</h>
     </coordinates>
@@ -38,10 +38,10 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>416</x>
-      <y>232</y>
-      <w>32</w>
-      <h>56</h>
+      <x>1680</x>
+      <y>552</y>
+      <w>40</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>24;24;24;48</additional_attributes>
@@ -49,8 +49,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>432</x>
-      <y>280</y>
+      <x>1696</x>
+      <y>600</y>
       <w>16</w>
       <h>488</h>
     </coordinates>
@@ -60,10 +60,10 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>680</x>
-      <y>232</y>
-      <w>32</w>
-      <h>64</h>
+      <x>1944</x>
+      <y>552</y>
+      <w>40</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>24;24;24;56</additional_attributes>
@@ -71,8 +71,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>696</x>
-      <y>288</y>
+      <x>1960</x>
+      <y>608</y>
       <w>16</w>
       <h>480</h>
     </coordinates>
@@ -82,9 +82,9 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>424</x>
-      <y>248</y>
-      <w>280</w>
+      <x>1688</x>
+      <y>568</y>
+      <w>288</w>
       <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -94,9 +94,9 @@ updateUserInput</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>424</x>
-      <y>728</y>
-      <w>280</w>
+      <x>1688</x>
+      <y>1048</y>
+      <w>288</w>
       <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -151,8 +151,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>456</x>
-      <y>312</y>
+      <x>1720</x>
+      <y>632</y>
       <w>552</w>
       <h>424</h>
     </coordinates>
@@ -162,8 +162,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>344</y>
+      <x>1728</x>
+      <y>664</y>
       <w>176</w>
       <h>24</h>
     </coordinates>
@@ -174,8 +174,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>336</y>
+      <x>1984</x>
+      <y>656</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -185,8 +185,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>344</y>
+      <x>2088</x>
+      <y>664</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -197,8 +197,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>376</x>
-      <y>360</y>
+      <x>1640</x>
+      <y>680</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -210,8 +210,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>400</y>
+      <x>1728</x>
+      <y>720</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -222,8 +222,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>392</y>
+      <x>1984</x>
+      <y>712</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -233,8 +233,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>376</x>
-      <y>416</y>
+      <x>1640</x>
+      <y>736</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -246,8 +246,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>456</y>
+      <x>1728</x>
+      <y>776</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -258,8 +258,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>448</y>
+      <x>1984</x>
+      <y>768</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -269,8 +269,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>376</x>
-      <y>472</y>
+      <x>1640</x>
+      <y>792</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -282,8 +282,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>504</y>
+      <x>1984</x>
+      <y>824</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -293,8 +293,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>512</y>
+      <x>1728</x>
+      <y>832</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -305,8 +305,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>376</x>
-      <y>528</y>
+      <x>1640</x>
+      <y>848</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -318,8 +318,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>568</y>
+      <x>1728</x>
+      <y>888</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -330,8 +330,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>560</y>
+      <x>1984</x>
+      <y>880</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -341,8 +341,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>376</x>
-      <y>584</y>
+      <x>1640</x>
+      <y>904</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -354,8 +354,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>624</y>
+      <x>1728</x>
+      <y>944</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -366,8 +366,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>616</y>
+      <x>1984</x>
+      <y>936</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -377,8 +377,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>376</x>
-      <y>640</y>
+      <x>1640</x>
+      <y>960</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -390,8 +390,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>464</x>
-      <y>680</y>
+      <x>1728</x>
+      <y>1000</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -402,8 +402,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>720</x>
-      <y>672</y>
+      <x>1984</x>
+      <y>992</y>
       <w>256</w>
       <h>40</h>
     </coordinates>
@@ -413,8 +413,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>400</y>
+      <x>2088</x>
+      <y>720</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -424,8 +424,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>456</y>
+      <x>2088</x>
+      <y>776</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -435,8 +435,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>512</y>
+      <x>2088</x>
+      <y>832</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -446,8 +446,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>568</y>
+      <x>2088</x>
+      <y>888</y>
       <w>144</w>
       <h>24</h>
     </coordinates>
@@ -457,8 +457,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>624</y>
+      <x>2088</x>
+      <y>944</y>
       <w>144</w>
       <h>24</h>
     </coordinates>
@@ -468,8 +468,8 @@ inner</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>824</x>
-      <y>680</y>
+      <x>2088</x>
+      <y>1000</y>
       <w>144</w>
       <h>24</h>
     </coordinates>
@@ -479,8 +479,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>1064</x>
-      <y>192</y>
+      <x>2328</x>
+      <y>512</y>
       <w>712</w>
       <h>616</h>
     </coordinates>
@@ -490,8 +490,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1088</x>
-      <y>224</y>
+      <x>2352</x>
+      <y>544</y>
       <w>664</w>
       <h>560</h>
     </coordinates>
@@ -501,8 +501,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1296</x>
-      <y>256</y>
+      <x>2560</x>
+      <y>576</y>
       <w>80</w>
       <h>32</h>
     </coordinates>
@@ -512,8 +512,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1312</x>
-      <y>264</y>
+      <x>2576</x>
+      <y>584</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -523,8 +523,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>1328</x>
-      <y>320</y>
+      <x>2592</x>
+      <y>640</y>
       <w>16</w>
       <h>408</h>
     </coordinates>
@@ -534,8 +534,8 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>1344</x>
-      <y>336</y>
+      <x>2608</x>
+      <y>656</y>
       <w>16</w>
       <h>376</h>
     </coordinates>
@@ -545,9 +545,9 @@ inner</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1320</x>
-      <y>288</y>
-      <w>130</w>
+      <x>2584</x>
+      <y>608</y>
+      <w>128</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -557,8 +557,8 @@ initializeGame</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1160</x>
-      <y>432</y>
+      <x>2424</x>
+      <y>752</y>
       <w>480</w>
       <h>264</h>
     </coordinates>
@@ -568,8 +568,8 @@ initializeGame</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1176</x>
-      <y>464</y>
+      <x>2440</x>
+      <y>784</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -579,8 +579,8 @@ initializeGame</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1104</x>
-      <y>256</y>
+      <x>2368</x>
+      <y>576</y>
       <w>80</w>
       <h>32</h>
     </coordinates>
@@ -591,8 +591,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>1136</x>
-      <y>312</y>
+      <x>2400</x>
+      <y>632</y>
       <w>16</w>
       <h>416</h>
     </coordinates>
@@ -602,8 +602,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1120</x>
-      <y>264</y>
+      <x>2384</x>
+      <y>584</y>
       <w>40</w>
       <h>64</h>
     </coordinates>
@@ -613,8 +613,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1128</x>
-      <y>280</y>
+      <x>2392</x>
+      <y>600</y>
       <w>216</w>
       <h>56</h>
     </coordinates>
@@ -625,8 +625,8 @@ updateUserInput</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1128</x>
-      <y>688</y>
+      <x>2392</x>
+      <y>1008</y>
       <w>216</w>
       <h>56</h>
     </coordinates>
@@ -638,8 +638,8 @@ outputString
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1368</x>
-      <y>456</y>
+      <x>2632</x>
+      <y>776</y>
       <w>232</w>
       <h>40</h>
     </coordinates>
@@ -649,8 +649,8 @@ outputString
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1472</x>
-      <y>464</y>
+      <x>2736</x>
+      <y>784</y>
       <w>96</w>
       <h>24</h>
     </coordinates>
@@ -660,8 +660,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1080</x>
-      <y>480</y>
+      <x>2344</x>
+      <y>800</y>
       <w>560</w>
       <h>40</h>
     </coordinates>
@@ -673,8 +673,8 @@ outputString
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1176</x>
-      <y>520</y>
+      <x>2440</x>
+      <y>840</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -684,8 +684,8 @@ outputString
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1616</x>
-      <y>256</y>
+      <x>2880</x>
+      <y>576</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -695,8 +695,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1640</x>
-      <y>264</y>
+      <x>2904</x>
+      <y>584</y>
       <w>40</w>
       <h>120</h>
     </coordinates>
@@ -706,8 +706,8 @@ outputString
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>1656</x>
-      <y>368</y>
+      <x>2920</x>
+      <y>688</y>
       <w>16</w>
       <h>24</h>
     </coordinates>
@@ -717,8 +717,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1336</x>
-      <y>328</y>
+      <x>2600</x>
+      <y>648</y>
       <w>336</w>
       <h>56</h>
     </coordinates>
@@ -729,8 +729,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1336</x>
-      <y>368</y>
+      <x>2600</x>
+      <y>688</y>
       <w>336</w>
       <h>40</h>
     </coordinates>
@@ -741,8 +741,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1640</x>
-      <y>368</y>
+      <x>2904</x>
+      <y>688</y>
       <w>40</w>
       <h>408</h>
     </coordinates>
@@ -752,30 +752,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>416</x>
-      <y>744</y>
-      <w>32</w>
-      <h>64</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>24;24;24;56</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>680</x>
-      <y>744</y>
-      <w>32</w>
-      <h>64</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>24;24;24;56</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>1120</x>
-      <y>704</y>
+      <x>1680</x>
+      <y>1064</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -785,8 +763,30 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1312</x>
-      <y>704</y>
+      <x>1944</x>
+      <y>1064</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2384</x>
+      <y>1024</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2576</x>
+      <y>1024</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -796,8 +796,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1368</x>
-      <y>512</y>
+      <x>2632</x>
+      <y>832</y>
       <w>232</w>
       <h>40</h>
     </coordinates>
@@ -807,8 +807,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1080</x>
-      <y>536</y>
+      <x>2344</x>
+      <y>856</y>
       <w>560</w>
       <h>40</h>
     </coordinates>
@@ -820,8 +820,8 @@ createTables</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1472</x>
-      <y>520</y>
+      <x>2736</x>
+      <y>840</y>
       <w>96</w>
       <h>24</h>
     </coordinates>
@@ -831,8 +831,8 @@ createTables</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1176</x>
-      <y>576</y>
+      <x>2440</x>
+      <y>896</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -842,8 +842,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1368</x>
-      <y>568</y>
+      <x>2632</x>
+      <y>888</y>
       <w>232</w>
       <h>40</h>
     </coordinates>
@@ -853,8 +853,8 @@ createTables</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1472</x>
-      <y>576</y>
+      <x>2736</x>
+      <y>896</y>
       <w>128</w>
       <h>24</h>
     </coordinates>
@@ -864,8 +864,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1080</x>
-      <y>592</y>
+      <x>2344</x>
+      <y>912</y>
       <w>560</w>
       <h>40</h>
     </coordinates>
@@ -877,8 +877,8 @@ createTables</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1176</x>
-      <y>632</y>
+      <x>2440</x>
+      <y>952</y>
       <w>136</w>
       <h>24</h>
     </coordinates>
@@ -888,8 +888,8 @@ createTables</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1336</x>
-      <y>600</y>
+      <x>2600</x>
+      <y>920</y>
       <w>128</w>
       <h>72</h>
     </coordinates>
@@ -900,8 +900,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>1360</x>
-      <y>648</y>
+      <x>2624</x>
+      <y>968</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -911,8 +911,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>1784</x>
-      <y>192</y>
+      <x>3048</x>
+      <y>512</y>
       <w>1264</w>
       <h>864</h>
     </coordinates>
@@ -922,8 +922,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1816</x>
-      <y>232</y>
+      <x>3080</x>
+      <y>552</y>
       <w>1200</w>
       <h>800</h>
     </coordinates>
@@ -933,8 +933,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>2312</x>
-      <y>256</y>
+      <x>3576</x>
+      <y>576</y>
       <w>80</w>
       <h>32</h>
     </coordinates>
@@ -944,8 +944,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2328</x>
-      <y>264</y>
+      <x>3592</x>
+      <y>584</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -955,8 +955,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2344</x>
-      <y>320</y>
+      <x>3608</x>
+      <y>640</y>
       <w>16</w>
       <h>632</h>
     </coordinates>
@@ -966,8 +966,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2360</x>
-      <y>336</y>
+      <x>3624</x>
+      <y>656</y>
       <w>16</w>
       <h>600</h>
     </coordinates>
@@ -977,8 +977,8 @@ exitGame</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2336</x>
-      <y>288</y>
+      <x>3600</x>
+      <y>608</y>
       <w>128</w>
       <h>72</h>
     </coordinates>
@@ -989,8 +989,8 @@ listMaps(true)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>1848</x>
-      <y>488</y>
+      <x>3112</x>
+      <y>808</y>
       <w>1136</w>
       <h>424</h>
     </coordinates>
@@ -1000,8 +1000,8 @@ listMaps(true)</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>2000</x>
-      <y>256</y>
+      <x>3264</x>
+      <y>576</y>
       <w>80</w>
       <h>32</h>
     </coordinates>
@@ -1012,8 +1012,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2032</x>
-      <y>312</y>
+      <x>3296</x>
+      <y>632</y>
       <w>16</w>
       <h>640</h>
     </coordinates>
@@ -1023,8 +1023,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2016</x>
-      <y>264</y>
+      <x>3280</x>
+      <y>584</y>
       <w>40</w>
       <h>64</h>
     </coordinates>
@@ -1034,8 +1034,8 @@ _:USER_</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2024</x>
-      <y>280</y>
+      <x>3288</x>
+      <y>600</y>
       <w>336</w>
       <h>56</h>
     </coordinates>
@@ -1046,8 +1046,8 @@ updateUserInput</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2024</x>
-      <y>912</y>
+      <x>3288</x>
+      <y>1232</y>
       <w>336</w>
       <h>56</h>
     </coordinates>
@@ -1059,8 +1059,8 @@ outputString
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1864</x>
-      <y>688</y>
+      <x>3128</x>
+      <y>1008</y>
       <w>152</w>
       <h>24</h>
     </coordinates>
@@ -1070,8 +1070,8 @@ outputString
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>2648</x>
-      <y>256</y>
+      <x>3912</x>
+      <y>576</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -1081,8 +1081,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2672</x>
-      <y>264</y>
+      <x>3936</x>
+      <y>584</y>
       <w>40</w>
       <h>176</h>
     </coordinates>
@@ -1092,8 +1092,8 @@ outputString
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2688</x>
-      <y>424</y>
+      <x>3952</x>
+      <y>744</y>
       <w>16</w>
       <h>24</h>
     </coordinates>
@@ -1103,8 +1103,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2672</x>
-      <y>424</y>
+      <x>3936</x>
+      <y>744</y>
       <w>40</w>
       <h>344</h>
     </coordinates>
@@ -1114,8 +1114,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2016</x>
-      <y>928</y>
+      <x>3280</x>
+      <y>1248</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -1125,8 +1125,8 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2328</x>
-      <y>928</y>
+      <x>3592</x>
+      <y>1248</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -1136,8 +1136,8 @@ outputString
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2376</x>
-      <y>368</y>
+      <x>3640</x>
+      <y>688</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -1147,9 +1147,9 @@ outputString
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>320</y>
-      <w>214</w>
+      <x>3616</x>
+      <y>640</y>
+      <w>208</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -1159,8 +1159,8 @@ convertToInteger(userInput)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>384</y>
+      <x>3616</x>
+      <y>704</y>
       <w>352</w>
       <h>56</h>
     </coordinates>
@@ -1171,8 +1171,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>424</y>
+      <x>3616</x>
+      <y>744</y>
       <w>352</w>
       <h>40</h>
     </coordinates>
@@ -1183,8 +1183,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>2064</x>
-      <y>512</y>
+      <x>3328</x>
+      <y>832</y>
       <w>888</w>
       <h>376</h>
     </coordinates>
@@ -1194,8 +1194,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>2080</x>
-      <y>552</y>
+      <x>3344</x>
+      <y>872</y>
       <w>152</w>
       <h>24</h>
     </coordinates>
@@ -1205,8 +1205,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.InteractionFrame</type>
     <coordinates>
-      <x>2384</x>
-      <y>536</y>
+      <x>3648</x>
+      <y>856</y>
       <w>232</w>
       <h>40</h>
     </coordinates>
@@ -1216,8 +1216,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>2488</x>
-      <y>544</y>
+      <x>3752</x>
+      <y>864</y>
       <w>112</w>
       <h>24</h>
     </coordinates>
@@ -1228,8 +1228,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2040</x>
-      <y>568</y>
+      <x>3304</x>
+      <y>888</y>
       <w>912</w>
       <h>40</h>
     </coordinates>
@@ -1241,8 +1241,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>2080</x>
-      <y>688</y>
+      <x>3344</x>
+      <y>1008</y>
       <w>264</w>
       <h>24</h>
     </coordinates>
@@ -1252,8 +1252,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>2824</x>
-      <y>256</y>
+      <x>4088</x>
+      <y>576</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -1263,8 +1263,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2848</x>
-      <y>424</y>
+      <x>4112</x>
+      <y>744</y>
       <w>40</w>
       <h>216</h>
     </coordinates>
@@ -1274,8 +1274,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2864</x>
-      <y>624</y>
+      <x>4128</x>
+      <y>944</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -1285,8 +1285,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>584</y>
+      <x>3616</x>
+      <y>904</y>
       <w>528</w>
       <h>56</h>
     </coordinates>
@@ -1297,8 +1297,8 @@ setMap(map.getMapFileName(input))</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>632</y>
+      <x>3616</x>
+      <y>952</y>
       <w>528</w>
       <h>40</h>
     </coordinates>
@@ -1308,8 +1308,8 @@ setMap(map.getMapFileName(input))</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2680</x>
-      <y>384</y>
+      <x>3944</x>
+      <y>704</y>
       <w>200</w>
       <h>56</h>
     </coordinates>
@@ -1320,8 +1320,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2864</x>
-      <y>424</y>
+      <x>4128</x>
+      <y>744</y>
       <w>16</w>
       <h>24</h>
     </coordinates>
@@ -1331,8 +1331,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2680</x>
-      <y>424</y>
+      <x>3944</x>
+      <y>744</y>
       <w>200</w>
       <h>40</h>
     </coordinates>
@@ -1343,8 +1343,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2848</x>
-      <y>264</y>
+      <x>4112</x>
+      <y>584</y>
       <w>40</w>
       <h>176</h>
     </coordinates>
@@ -1354,8 +1354,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>648</y>
+      <x>3616</x>
+      <y>968</y>
       <w>528</w>
       <h>56</h>
     </coordinates>
@@ -1366,8 +1366,8 @@ getMap</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2864</x>
-      <y>688</y>
+      <x>4128</x>
+      <y>1008</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -1377,8 +1377,8 @@ getMap</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2848</x>
-      <y>632</y>
+      <x>4112</x>
+      <y>952</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -1388,8 +1388,8 @@ getMap</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>696</y>
+      <x>3616</x>
+      <y>1016</y>
       <w>528</w>
       <h>40</h>
     </coordinates>
@@ -1399,8 +1399,8 @@ getMap</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>712</y>
+      <x>3616</x>
+      <y>1032</y>
       <w>352</w>
       <h>56</h>
     </coordinates>
@@ -1411,8 +1411,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2688</x>
-      <y>752</y>
+      <x>3952</x>
+      <y>1072</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -1422,8 +1422,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>760</y>
+      <x>3616</x>
+      <y>1080</y>
       <w>352</w>
       <h>40</h>
     </coordinates>
@@ -1434,8 +1434,8 @@ loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2680</x>
-      <y>712</y>
+      <x>3944</x>
+      <y>1032</y>
       <w>200</w>
       <h>56</h>
     </coordinates>
@@ -1446,8 +1446,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2680</x>
-      <y>760</y>
+      <x>3944</x>
+      <y>1080</y>
       <w>200</w>
       <h>40</h>
     </coordinates>
@@ -1458,8 +1458,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2864</x>
-      <y>752</y>
+      <x>4128</x>
+      <y>1072</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -1469,8 +1469,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2848</x>
-      <y>696</y>
+      <x>4112</x>
+      <y>1016</y>
       <w>40</w>
       <h>72</h>
     </coordinates>
@@ -1480,8 +1480,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2040</x>
-      <y>792</y>
+      <x>3304</x>
+      <y>1112</y>
       <w>912</w>
       <h>40</h>
     </coordinates>
@@ -1493,8 +1493,8 @@ getMaps</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>2080</x>
-      <y>840</y>
+      <x>3344</x>
+      <y>1160</y>
       <w>48</w>
       <h>24</h>
     </coordinates>
@@ -1504,8 +1504,8 @@ getMaps</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2352</x>
-      <y>800</y>
+      <x>3616</x>
+      <y>1120</y>
       <w>128</w>
       <h>72</h>
     </coordinates>
@@ -1516,8 +1516,8 @@ listMaps(true)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.SeqObjectActive</type>
     <coordinates>
-      <x>2376</x>
-      <y>840</y>
+      <x>3640</x>
+      <y>1160</y>
       <w>16</w>
       <h>32</h>
     </coordinates>
@@ -1527,8 +1527,8 @@ listMaps(true)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2848</x>
-      <y>760</y>
+      <x>4112</x>
+      <y>1080</y>
       <w>40</w>
       <h>232</h>
     </coordinates>
@@ -1538,12 +1538,1131 @@ listMaps(true)</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>2672</x>
-      <y>760</y>
+      <x>3936</x>
+      <y>1080</y>
       <w>40</w>
       <h>232</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>24;24;24;216</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>3048</x>
+      <y>1384</y>
+      <w>1264</w>
+      <h>696</h>
+    </coordinates>
+    <panel_attributes>SEQUENCE DIAGRAM - JSF_HERO_vs_MONSTERS (GameEngine)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>3080</x>
+      <y>1424</y>
+      <w>1200</w>
+      <h>632</h>
+    </coordinates>
+    <panel_attributes>sd     Select a map to play   </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>3576</x>
+      <y>1448</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:GameEngine_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3592</x>
+      <y>1456</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>3608</x>
+      <y>1512</y>
+      <w>16</w>
+      <h>488</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>3624</x>
+      <y>1528</y>
+      <w>16</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3600</x>
+      <y>1480</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+listMaps(false)</panel_attributes>
+    <additional_attributes>40;56;112;56;112;40;48;40;112;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>3112</x>
+      <y>1680</y>
+      <w>1136</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>opt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>3264</x>
+      <y>1448</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;actor&gt;&gt;
+_:USER_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>3296</x>
+      <y>1504</y>
+      <w>16</w>
+      <h>496</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3280</x>
+      <y>1456</y>
+      <w>40</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;48</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3288</x>
+      <y>1472</y>
+      <w>336</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+updateUserInput</panel_attributes>
+    <additional_attributes>320;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3288</x>
+      <y>1960</y>
+      <w>336</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+outputString
+</panel_attributes>
+    <additional_attributes>24;40;320;40</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>3128</x>
+      <y>1880</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ firstTimeListMaps = false ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>3928</x>
+      <y>1448</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:UserInterface_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3952</x>
+      <y>1456</y>
+      <w>40</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>3968</x>
+      <y>1616</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3952</x>
+      <y>1616</y>
+      <w>40</w>
+      <h>424</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;408</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3280</x>
+      <y>1976</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3592</x>
+      <y>1976</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>3640</x>
+      <y>1560</y>
+      <w>16</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3616</x>
+      <y>1512</y>
+      <w>214</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+convertToInteger(userInput)</panel_attributes>
+    <additional_attributes>40;56;192;56;192;40;64;40;112;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3616</x>
+      <y>1576</y>
+      <w>368</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+loadMenu(UserInterface.menu.SELECTMAP, map.getMaps)</panel_attributes>
+    <additional_attributes>352;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3616</x>
+      <y>1616</y>
+      <w>368</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>24;24;352;24</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>3344</x>
+      <y>1776</y>
+      <w>264</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ input &gt;= map.getMapFiles().length &amp;&amp; input &gt;= 0 ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>4104</x>
+      <y>1448</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:Map_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>4128</x>
+      <y>1616</y>
+      <w>40</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>4144</x>
+      <y>1736</y>
+      <w>16</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3616</x>
+      <y>1696</y>
+      <w>544</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+setMap(map.getMapFileName(input))</panel_attributes>
+    <additional_attributes>528;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3616</x>
+      <y>1744</y>
+      <w>544</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>24;24;528;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3960</x>
+      <y>1576</y>
+      <w>200</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+getMaps</panel_attributes>
+    <additional_attributes>184;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>4144</x>
+      <y>1616</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3960</x>
+      <y>1616</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>24;24;184;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>4128</x>
+      <y>1456</y>
+      <w>40</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>4128</x>
+      <y>1744</y>
+      <w>40</w>
+      <h>296</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;280</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3304</x>
+      <y>1840</y>
+      <w>912</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>24;24;896;24</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>3344</x>
+      <y>1888</y>
+      <w>48</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ else ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>3616</x>
+      <y>1848</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+listMaps(false)</panel_attributes>
+    <additional_attributes>40;56;112;56;112;40;48;40;112;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>3640</x>
+      <y>1888</y>
+      <w>16</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>3328</x>
+      <y>1704</y>
+      <w>888</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>alt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>3648</x>
+      <y>1792</y>
+      <w>232</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>3752</x>
+      <y>1800</y>
+      <w>112</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Start the game</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>1648</x>
+      <y>1136</y>
+      <w>1360</w>
+      <h>832</h>
+    </coordinates>
+    <panel_attributes>SEQUENCE DIAGRAM - JSF_HERO_vs_MONSTERS (GameEngine)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>1672</x>
+      <y>1168</y>
+      <w>1304</w>
+      <h>768</h>
+    </coordinates>
+    <panel_attributes>sd     Start the game   </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>2088</x>
+      <y>1200</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:GameEngine_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2104</x>
+      <y>1208</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2120</x>
+      <y>1264</y>
+      <w>16</w>
+      <h>624</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2136</x>
+      <y>1280</y>
+      <w>16</w>
+      <h>592</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2112</x>
+      <y>1232</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+startGame</panel_attributes>
+    <additional_attributes>40;56;112;56;112;40;48;40;112;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>1744</x>
+      <y>1368</y>
+      <w>1032</w>
+      <h>488</h>
+    </coordinates>
+    <panel_attributes>alt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1400</y>
+      <w>224</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ gameDatabase.getHero("HERO") == null ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1688</x>
+      <y>1200</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;actor&gt;&gt;
+_:USER_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>1720</x>
+      <y>1256</y>
+      <w>16</w>
+      <h>632</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1704</x>
+      <y>1208</y>
+      <w>40</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;48</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1712</x>
+      <y>1224</y>
+      <w>424</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+updateUserInput</panel_attributes>
+    <additional_attributes>408;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1712</x>
+      <y>1848</y>
+      <w>424</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+outputString
+</panel_attributes>
+    <additional_attributes>24;40;408;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1664</x>
+      <y>1416</y>
+      <w>1112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>24;24;1096;24</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1464</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ resetHero = true ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>2784</x>
+      <y>1200</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:GameDatabase_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2808</x>
+      <y>1208</y>
+      <w>40</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;104</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2824</x>
+      <y>1312</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2808</x>
+      <y>1312</y>
+      <w>40</w>
+      <h>616</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;600</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1704</x>
+      <y>1864</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2104</x>
+      <y>1864</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1664</x>
+      <y>1488</y>
+      <w>1112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>24;24;1096;24</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1536</y>
+      <w>352</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ gameState != state.LISTMAP &amp;&amp; gameState != state.MAPERROR ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1272</y>
+      <w>712</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+getHero("HERO")</panel_attributes>
+    <additional_attributes>696;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1312</y>
+      <w>712</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+
+</panel_attributes>
+    <additional_attributes>24;24;696;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1352</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+listMaps(false)</panel_attributes>
+    <additional_attributes>40;56;112;56;112;40;48;40;112;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2152</x>
+      <y>1392</y>
+      <w>16</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1424</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+listMaps(false)</panel_attributes>
+    <additional_attributes>40;56;112;56;112;40;48;40;112;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2152</x>
+      <y>1464</y>
+      <w>16</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>2160</x>
+      <y>1528</y>
+      <w>288</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>2264</x>
+      <y>1536</y>
+      <w>176</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Create a user defined character</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>1912</x>
+      <y>1584</y>
+      <w>560</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>alt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1928</x>
+      <y>1616</y>
+      <w>192</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ gameState != state.MAPERROR ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>2160</x>
+      <y>1608</y>
+      <w>288</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ref</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>2264</x>
+      <y>1616</y>
+      <w>176</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Create monster characters</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1664</x>
+      <y>1664</y>
+      <w>1104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>24;24;1088;24</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1720</y>
+      <w>352</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ gameState = state.MAPERROR ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>2496</x>
+      <y>1200</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:UserInterface_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2520</x>
+      <y>1208</y>
+      <w>40</w>
+      <h>528</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;512</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2536</x>
+      <y>1720</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>2640</x>
+      <y>1200</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>_:Map_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2664</x>
+      <y>1208</y>
+      <w>40</w>
+      <h>528</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;512</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1680</y>
+      <w>424</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+loadMenu(UserInterface.menu.SHOWMAP, map.getMaps)</panel_attributes>
+    <additional_attributes>408;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1720</y>
+      <w>424</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+
+</panel_attributes>
+    <additional_attributes>24;24;408;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2680</x>
+      <y>1720</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2528</x>
+      <y>1680</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+getMaps</panel_attributes>
+    <additional_attributes>152;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2528</x>
+      <y>1720</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+
+</panel_attributes>
+    <additional_attributes>24;24;152;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1664</x>
+      <y>1752</y>
+      <w>1104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>24;24;1088;24</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1800</y>
+      <w>352</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[ characters.size &gt; 1 ]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SeqObjectActive</type>
+    <coordinates>
+      <x>2680</x>
+      <y>1800</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1760</y>
+      <w>568</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+getMapFileName</panel_attributes>
+    <additional_attributes>552;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2128</x>
+      <y>1800</y>
+      <w>568</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+
+</panel_attributes>
+    <additional_attributes>24;24;552;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2520</x>
+      <y>1720</y>
+      <w>40</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;192</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2664</x>
+      <y>1720</y>
+      <w>40</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>2664</x>
+      <y>1800</y>
+      <w>40</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>24;24;24;112</additional_attributes>
   </element>
 </diagram>
